@@ -25,7 +25,7 @@
 
   <!-- 代码高亮 -->
   
-<meta name="generator" content="Hexo 5.4.0"></head>
+<meta name="generator" content="Hexo 6.3.0"></head>
 
 
 <body>
@@ -143,7 +143,7 @@
         </sapn>
       <br>查询完后到<a target="_blank" rel="noopener" href="https://xiaomirom.com/">XiaomiROM</a>找该版本的完整卡刷包并下载<br>双击打开卡刷包，如果有boot.img就直接解压，如果没有但有payload.bin，则需要找工具解包(这里不想多讲)<br><strong>近期出的手机可能会因为修补boot.img导致无法进入系统（甚至报系统损坏），搞机需谨慎哦</strong></p>
 <h3 id="修补并刷入boot"><a href="#修补并刷入boot" class="headerlink" title="修补并刷入boot"></a>修补并刷入boot</h3><p>安装<a target="_blank" rel="noopener" href="https://github.com/topjohnwu/magisk/releases">面具</a>，点击上面的安装，选择提取的boot镜像,然后点开始<br>等待一会，如果显示done,就可以把修补后的文件传回到电脑里<br>打开命令提示符（cmd&#x2F;powershell）输入以下命令</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">For cmd</span><br><span class="line">fastboot flash boot &lt;boot image&gt;</span><br><span class="line">For PowerShell</span><br><span class="line">.&#x2F;fastboot flash boot &lt;boot image&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">For cmd</span><br><span class="line">fastboot flash boot &lt;boot image&gt;</span><br><span class="line">For PowerShell</span><br><span class="line">./fastboot flash boot &lt;boot image&gt;</span><br></pre></td></tr></table></figure>
 <p>刷入成功后重启，打开面具，magisk栏显示版本号，代表刷入成功</p>
 <blockquote>
 <p>文章相关资源<br><a target="_blank" rel="noopener" href="https://www.miui.com/unlock/index.html">小米解锁</a><br><a target="_blank" rel="noopener" href="https://developer.android.google.cn/studio/releases/platform-tools">​adb工​具</a><br><a target="_blank" rel="noopener" href="https://github.com/topjohnwu/Magisk/releases">面具</a><br> <a target="_blank" rel="noopener" href="https://xiaomirom.com/">xiaomiroms</a><br><a target="_blank" rel="noopener" href="https://magiskcn.com/">面具中文网</a></p>
