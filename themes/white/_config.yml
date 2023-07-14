@@ -126,11 +126,11 @@ comments:
     placeholder: 留下你来过的痕迹~ #评论框占位符
   # Gitalk
   gitalk:
-    owner: 'luyanci' #Github 用户名,
-    repo: 'luyanci.github.io' #储存评论issue的github仓库名
-    admin: 'luyanci' #Github 用户名
-    clientID: cc90d60963ef56f3ee85 #`Github Application clientID`
-    clientSecret: 936ecdcea8d74a4b8c326bdb920ccabccb3bbffe #`Github Application clientSecret`
+    owner: '' #Github 用户名,
+    repo: '' #储存评论issue的github仓库名
+    admin: '' #Github 用户名
+    clientID:  #`Github Application clientID`
+    clientSecret:  #`Github Application clientSecret`
   #livere
   livere: # 前往 http://livere.com/ 申请账号
     dataId: city #免费版本city
